@@ -47,7 +47,7 @@ export default function Header() {
           <h1 className="text-[1.2rem] sm:text-[2.2rem] md:text-[3rem] font-[600] mb-4 max-w-4xl">
             {t("header.header_title")}
           </h1>
-          <p className="text-[10px] sm:text-[20px] md:text-[25px] font-[300] mb-4 max-w-5xl">
+          <p className="text-[10px] sm:text-[20px] md:text-[25px] font-[500] mb-4 max-w-5xl">
             {t("header.header_desc")}
           </p>
           <button className="text-white text-[11px] sm:text-[18px] md:text-[26px] border-1 border-white mt-2 max-sm:w-[11rem] px-4 sm:px-10 py-1 sm:py-4 rounded-full font-[400] cursor-pointer hover:bg-[#FFFFFF3A] hover:text-white">
@@ -86,6 +86,7 @@ export default function Header() {
     </div>
   );
 }
+
 
 
 
